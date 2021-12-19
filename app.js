@@ -9,7 +9,7 @@ var fileUpload = require('express-fileupload');
 var passport = require('passport');
 
 ////Importar variables de entorno
-require('dotenv').config({path:'variables.env'});
+require('dotenv').config({path:'.env'});
 
 //Connect to db
 mongoose.connect(process.env.DB_URL);
