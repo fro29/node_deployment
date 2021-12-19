@@ -1,0 +1,37 @@
+<%- include('./_layouts/header') %>
+
+<h1>Regístrate</h1>
+
+<link rel="stylesheet" href="/css/adminstyle.css">
+
+<form method="post" action="/users/register">
+
+    <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" name="name" class="form-control" placeholder="Nombre">
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input type="text" name="email" class="form-control" placeholder="Email">
+    </div>
+    
+    <div class="form-group">
+        <label>Nombre de usuario</label>
+        <input type="text" name="username" class="form-control" placeholder="Nombre de usuario">
+    </div>
+
+    <div class="form-group">
+        <label>Contraseña</label>
+        <input type="password" name="password" class="form-control"  placeholder="Contraseña">
+    </div>
+    
+    <div class="form-group">
+        <label>Confirmar Contraseña</label>
+        <input type="password" name="password2" class="form-control"  placeholder="Confirmar Contraseña">
+    </div>
+
+    <button type="submit" class="btn btn-bd2-primary">Registrar</button>
+</form>
+
+<%- include('./_layouts/footer') %>

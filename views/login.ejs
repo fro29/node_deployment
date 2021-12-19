@@ -1,0 +1,20 @@
+<%- include('./_layouts/header') %>
+
+<h1>Iniciar sesión</h1>
+
+<form method="post" action="/users/login">    
+
+    <div class="form-group">
+        <label>Nombre de usuario</label>
+        <input type="text" name="username" class="form-control" placeholder="Nombre de usuario">
+    </div>
+
+    <div class="form-group">
+        <label>Contraseña</label>
+        <input type="password" name="password" class="form-control"  placeholder="Contraseña">
+    </div>
+    
+    <button type="submit" class="btn btn-default">Entrar</button>
+</form>
+
+<%- include('./_layouts/footer') %>

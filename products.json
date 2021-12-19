@@ -1,0 +1,5 @@
+{"_id":{"$oid":"619c33209fd3b29b4deeb089"},"title":"Playera verde","slug":"playera-verde","desc":"Playera Verde","category":"hombre","price":150,"image":"greenshirt2.jpg","__v":0}
+{"_id":{"$oid":"619c36abff5b699b69e70950"},"title":"Playera roja","slug":"playera-roja","desc":"Playera Roja","category":"hombre","price":120,"image":"redshirt4.jpg","__v":0}
+{"_id":{"$oid":"61a1959cda36b7896cebd7d5"},"title":"Vestido","slug":"vestido","desc":"Vestido Azul","category":"mujer","price":500,"image":"vestido.jpg","__v":0}
+{"_id":{"$oid":"61a40da47e124be693316b15"},"title":"Playera Rayas","slug":"playera-rayas","desc":"Playera Ryas","category":"hombre","price":200,"image":"Playera Negra con rayas.jpg","__v":0}
+{"_id":{"$oid":"61a40df07e124be693316b45"},"title":"Playera rayas ","slug":"playera-rayas-","desc":"Playera con rayas","category":"hombre","price":200,"image":"Playera Rayas.jpg","__v":0}
